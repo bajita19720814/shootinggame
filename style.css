@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  background-color: wheat;
+}
+#container {
+  width: 320px;
+  margin: 120px auto;
+  position: relative;
+}
+#instruction {
+  line-height: 32px;
+  width: 320px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+#instruction.hide {
+  display: none;
+}
+canvas {
+  background-color: #0c0c0c;
+  display: block;
+}
+canvas.hide {
+  display: none;
+}
+
+.home {
+  position: absolute;
+  top: -48px;
+  right: 4px;
+  background-color: #e4e4e4;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  vertical-align: bottom;
+}
+.home a {
+  display: block;
+  text-decoration: none;
+  color: #0a0a0a;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+}
+.home span {
+  line-height: 32px;
+}
+.text {
+  position: absolute;
+  top: 8px;
+  right: -12px;
+  font-size: 12px;
+  width: 80px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none; 
+}
+.home:hover .text {
+  opacity: 1;
+}
+.home:hover span {
+  opacity: 0.3;
+}
+.restart {
+  position: absolute;
+  top: -48px;
+  left: 4px;
+  background-color: #e4e4e4;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  vertical-align: bottom;
+}
+.restart a {
+  display: block;
+  text-decoration: none;
+  color: #0a0a0a;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+}
+.restart span {
+  line-height: 32px;
+}
+.replay {
+  position: absolute;
+  top: 8px;
+  left: -4px;
+  font-size: 12px;
+  width: 80px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none; 
+}
+.restart:hover .replay {
+  opacity: 1;
+}
+.restart:hover span {
+  opacity: 0.3;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シューティングゲーム</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="container">
+    <div class="restart">
+      <a href="">
+      <span class="material-icons">
+        replay
+      </span></a>
+      <p class="replay">やり直す</p>
+    </div>
+    
+    <div class="home"><a href="https://bajita19720814.github.io">
+      <span class="material-icons">
+        home
+      </span></a>
+      <p class="text">ホームに戻る</p>
+    </div>
+
+    <div id="instruction">白いのが君で、色がついているのは敵だよ。<br>マウスで動かして黒い画面の中でクリックして撃ってね。<br> クリックして始めよう</div>
+    <canvas width="320" height="320" class="hide"></canvas>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
